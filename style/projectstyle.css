@@ -14,10 +14,13 @@ h1 {
 }
 
 .footer {
-  position: absolute;
-  width: 100%;
-  background-color: #a618ec;
+  clear: both;
+  position: relative;
+  height: 1rem;
+  bottom: 0;
+  height: 2rem;
   text-align: center;
+  background-color: #a618ec;
 }
 
 .footer a {

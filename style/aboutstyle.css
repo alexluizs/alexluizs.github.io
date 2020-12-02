@@ -13,8 +13,8 @@ img {
 }
 
 .about-text {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding: 5%;
   color: #37ff73;
 }
@@ -24,18 +24,14 @@ img {
   font-weight: bold;
 }
 
-.about-text p {
-  text-indent: 50px;
-  text-align: justify;
-  font-size: 24px;
-  margin: 10px;
-}
-
 .footer {
-  position: absolute;
-  width: 100%;
-  background-color: #a618ec;
+  clear: both;
+  position: relative;
+  height: 1rem;
+  bottom: 0;
+  height: 2rem;
   text-align: center;
+  background-color: #a618ec;
 }
 
 .footer a {
@@ -47,4 +43,18 @@ img {
 .footer a:hover,
 a:active {
   background-color: #37ff73;
+}
+
+/*
+@media screen and (min-width: 1001px) {
+  p {
+    font-size: 48px;
+  }
+}
+*/
+
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 24px;
+  }
 }
