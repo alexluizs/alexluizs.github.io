@@ -1,3 +1,36 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover .my-item {
+  font-weight: bold;
+  box-shadow: 20px 20px 0 #37ff73;
+}
+
+.my-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, 400px);
+  width: 70%;
+  height: 100px;
+  margin: 30px auto;
+  border-radius: 8px;
+  justify-content: space-around;
+}
+
+.my-item {
+  font-size: 2rem;
+  color: #37ff73;
+  text-align: center;
+  width: 20rem;
+  background-color: #a618ec;
+  border-radius: 8px;
+  padding: 10px;
+  align-self: center;
+  margin: 20px;
+}
+
 .container {
   width: 85%;
   height: 800px;
@@ -11,27 +44,6 @@ h1 {
 
 .title-project {
   color: #37ff73;
-}
-
-.footer {
-  clear: both;
-  position: relative;
-  height: 1rem;
-  bottom: 0;
-  height: 2rem;
-  text-align: center;
-  background-color: #a618ec;
-}
-
-.footer a {
-  text-decoration: none;
-  font-size: 24px;
-  color: white;
-}
-
-.footer a:hover,
-a:active {
-  background-color: #37ff73;
 }
 
 .item {
